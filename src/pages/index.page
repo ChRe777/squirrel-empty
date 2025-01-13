@@ -1,0 +1,8 @@
+---
+import { Layout } from "../layouts/layout.squirrel";
+import { Hello } from "../components/hello-world.squirrel";
+const name = "Squirrel";
+---
+<Layout>
+    <Hello name=${name} />
+</Layout>
