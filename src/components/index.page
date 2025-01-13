@@ -1,0 +1,48 @@
+---
+const name = "Squirrel";
+---
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Deno + uHTML</title>
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.4.5/spectre.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.4.5/spectre-exp.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.4.5/spectre-icons.min.css"
+        />
+        <style>
+            body,
+            html {
+                height: 100vh;
+                padding: 0px;
+                margin: 0px;
+                background-color: rgba(241,241,251, 0.5);
+            }
+            #navbar {
+                position: sticky;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="columns">
+                <div class="column col-3">
+                </div>
+                <div class="column col-6">
+                    Hello World from ${name}!
+                </div>
+                 <div class="column col-3">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
