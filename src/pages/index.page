@@ -1,6 +1,6 @@
 ---
-import { Layout } from "../layouts/layout.squirrel";
-import { Hello } from "../components/hello-world.squirrel";
+import { Layout } from "/layouts/layout.squirrel";
+import { Hello } from "/components/hello-world.squirrel";
 const name = "Squirrel";
 ---
 <Layout>
