@@ -1,7 +1,7 @@
 ---
 import { Layout } from "/layouts/layout.squirrel";
 import { Hello } from "/components/hello-world.squirrel";
-const name = "Squirrel";
+const title = "Squirrel";
 ---
 <Layout>
     <Hello name=${name} />
